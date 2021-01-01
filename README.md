@@ -1,28 +1,13 @@
 # learngit
 
-git clone
+## 数据库配置
+    SQLAlchemy是用来存储新闻信息
+## redis配置
+    redis是用来存储session以及缓存文件
 
-git add .
+## session配置
+    存储用户登录信息
 
-git commit
-
-git diff "filename"
-
-git checkout -b "branch name"
-
-
-
-111
-
-222
-
-333
-
-git restore --staged <file>: 撤销 暂存区
-
-git restore <file>: 撤销 本地修改
-
-pycharm添加
 
 
 
