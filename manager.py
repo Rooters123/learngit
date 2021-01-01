@@ -11,7 +11,6 @@ class Config(object):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_POOL_SIZE = 5
 app.config.from_object(Config)
-
 db = SQLAlchemy(app)
 @app.route("/")
 def index():
