@@ -42,7 +42,7 @@ def log_file(level_name):
     logging.basicConfig(level=level_name)#调试debug级
     #创建日志记录器，指明日志保存的路径、每个日志件的最大大小、保存的日志文件个数上限
     # file_log_handler
-    file_log_handler = RotatingFileHandler("logs/log",maxBytes=1024*1024*180,backupCount=18)
+    file_log_handler = RotatingFileHandler("logs/log",maxBytes=1024*1024*100,backupCount=10)
     #创建日志记录的格式白等级输入日志信息的文件名行数日志信息
     formatter=logging.Formatter('%(levelname)s %(filename)s:%(lineno)d%(message)s')
     #为刚创建的日志记录器设置日志记录格式
