@@ -8,6 +8,10 @@
 ## session配置
     存储用户登录信息
 
+## CSRFprotect
+    保护不被CSRF攻击
+    'POST', 'PUT', 'PATCH', 'DELETE'
+
 
 
 
