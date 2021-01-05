@@ -265,7 +265,7 @@ function sendSMSCode() {
         "mobile":mobile,
         "image_code":imageCode,
         "image_code_id":imageCodeId
-    }
+    };
 
     //发送获取短信请求
 
@@ -277,7 +277,7 @@ function sendSMSCode() {
         headers:{'X-CSRFToken':getCookie('csrf_token')},
         success: function (resp) {
             //判断是否请求成功
-            if(resp.errno == '0'){
+            if(resp.erron == '0'){
 
                 //定义倒计时时间
                 var num = 60;

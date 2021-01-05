@@ -9,7 +9,7 @@ class Config(object):
     DEBUG = True
     SECRET_KEY = "wdqzbr"
     # 数据库配置信息
-    SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://postgres@localhost/BlogProj"
+    SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://postgres:123456@localhost/BlogProj"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_POOL_SIZE = 5
 
