@@ -66,7 +66,7 @@ class CCP(object):
             return 0
         else:
             # 返回-1 表示发送失败
-            return 0
+            return -1
 
 
 if __name__ == '__main__':

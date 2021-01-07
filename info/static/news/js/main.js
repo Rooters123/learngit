@@ -277,11 +277,9 @@ function sendSMSCode() {
         headers:{'X-CSRFToken':getCookie('csrf_token')},
         success: function (resp) {
             //判断是否请求成功
-            if(resp.erron == '0'){
-
+            if(resp.errcode == 0){
                 //定义倒计时时间
                 var num = 60;
-
                 //创建定时器
                 var t = setInterval(function () {
 
